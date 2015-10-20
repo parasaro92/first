@@ -2,7 +2,7 @@ require "first/version"
 
 module First
   # Your code goes here...
-  def add(*args)
-    return add.reduce(:+)
+  def self.add(*args)
+    return args.reduce(:+)
   end
 end
